@@ -1,0 +1,18 @@
+# Credenciales y configuracion local (NUNCA SUBIR A GIT)
+.env
+.env.*
+!.env.example
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos compilados y temporales
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Carpetas de editores
+.vscode/
+.idea/
+.DS_Store
